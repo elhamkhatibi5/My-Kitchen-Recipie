@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Recipe</title>
+</head>
+<body>
+    <h1>Add Your Recipe</h1>
+
+    
+    <form>
+        <h2>Mozzarella Cheese</h2>
+
+        <label for="mozName">Recipe Name:</label><br>
+        <input type="text" id="mozName" name="recipeName" value="Mozzarella Cheese" required><br><br>
+
+        <label for="mozIngredients">Ingredients:</label><br>
+        <textarea id="mozIngredients" name="ingredients" rows="5" required>1 gallon whole milk
+¼ tablet rennet
+¼ cup vinegar
+Salt to taste</textarea><br><br>
+
+        <label for="mozInstructions">Cooking Instructions:</label><br>
+        <textarea id="mozInstructions" name="instructions" rows="5" required>1. Warm the milk to 85°F and add rennet.
+2. Let sit for 1 hour until curds form.
+3. Cut the curds and heat gently to 105°F.
+4. Drain and press curds.
+5. Add salt and shape.
+6. Chill in ice water.</textarea><br><br>
+
+        <img src="pizaa.jpg.jpg" alt=" Mozeralla Cheese pizza" weight="150" height="150"><br>
+        <label for="mozCategory">Recipe Category:</label><br>
+        <select id="mozCategory" name="category" required>
+            <option value="">--Select Category--</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Main Course">Main Course</option>
+            <option value="Desserts">Desserts</option>
+            <option value="Snacks">Snacks</option>
+        </select><br><br>
+
+        <button type="submit">Add Recipe</button>
+    </form>
+
+    <hr>
+
+    
+    <form>
+        <h2>Vanilla Ice Cream</h2>
+
+        <label for="vanillaName">Recipe Name:</label><br>
+        <input type="text" id="vanillaName" name="recipeName" value="Vanilla Ice Cream" required><br><br>
+
+        <label for="vanillaIngredients">Ingredients:</label><br>
+        <textarea id="vanillaIngredients" name="ingredients" rows="5" required>2 cups heavy cream
+1 cup milk
+¾ cup sugar
+1 tbsp vanilla extract
+Pinch of salt</textarea><br><br>
+
+        <label for="vanillaInstructions">Cooking Instructions:</label><br>
+        <textarea id="vanillaInstructions" name="instructions" rows="5" required>1. Mix all ingredients together.
+2. Pour into ice cream maker and churn.
+3. Freeze for at least 4 hours before serving.</textarea><br><br>
+
+        
+     <img src="vanila jpg.jpg" alt=" Mozeralla Cheese pizza" weight="200" height="150"><br>  
+
+        <label for="vanillaCategory">Recipe Category:</label><br>
+        <select id="vanillaCategory" name="category" required>
+            <option value="">--Select Category--</option>
+            <option value="Appetizers">Appetizers</option>
+            <option value="Main Course">Main Course</option>
+            <option value="Desserts">Desserts</option>
+            <option value="Snacks">Snacks</option>
+        </select><br><br>
+
+        <button type="submit">Add Recipe</button>
+    </form>
+</body>
+</html>
